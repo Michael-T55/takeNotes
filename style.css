@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#note-input {
+  padding: 10px;
+  resize: none;
+  outline: none;
+  border-radius: 5px;
+ 
+}
+#notes{
+    min-height: 50px;
+}
+button {
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* button:hover {
+  background: #0056b3;
+} */
+
+
+.note {
+    border: 2px solid #3b3b3b;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+}
+
+.note button {
+  position: absolute;
+  right: 10px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  font-size: 22px;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+/* 
+.note button:hover {
+  background: darkred;
+} */
