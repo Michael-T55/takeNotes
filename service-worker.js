@@ -2,8 +2,11 @@ const CACHE_NAME = 'note-taking-app-v1';
 const FILES_TO_CACHE = [
     '/',
     '/index.html',
-    '/style.css',
+    '/styles.css',
     '/app.js',
+    '/manifest.json',
+    // '/icons/icon-192x192.png',
+    // '/icons/icon-512x512.png'
 ];
 
 self.addEventListener('install', (event) => {
@@ -35,4 +38,3 @@ self.addEventListener('fetch', (event) => {
         })
     );
 });
-
